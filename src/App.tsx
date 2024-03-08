@@ -1,13 +1,10 @@
 import React from "react";
 
-import {
-  DarkModeIcon,
-  LightModeIcon,
-  Logo,
-  carouselIcons,
-} from "assets/images";
-import quickLinks from "constants/quick-links";
-import { Carousel, Container, Link, Toggle } from "mobrix-ui";
+import { Container } from "mobrix-ui";
+
+import Header from "contents/header";
+import Footer from "contents/footer";
+import HomePage from "pages/Home";
 
 const AppContainer = () => {
   const [dark, setDarkMode] = React.useState(false);
@@ -27,34 +24,13 @@ const AppContainer = () => {
         wrapper="header"
         shadow={!dark}
       >
-        <div className="w-full flex flex-col">
-          <div className="flex flex-row-reverse">
-            <Toggle
-              onIcon={LightModeIcon}
-              offIcon={DarkModeIcon}
-              shadow={false}
-              dark={dark}
-              value={!dark}
-              onChange={() => {
-                setDarkMode(!dark);
-              }}
-            />
-          </div>
-          <div className="flex flex-col items-center pb-1">
-            <Logo />
-          </div>
-        </div>
+        <Header dark={dark} setDarkMode={setDarkMode} />
       </Container>
       <Container
         background={false}
         className="overflow-auto h-[70%] flex flex-col w-full"
       >
-        <Carousel
-          dark={dark}
-          background={false}
-          className="m-auto"
-          elements={carouselIcons}
-        />
+        <HomePage dark={dark} setDarkMode={setDarkMode} />
       </Container>
       <Container
         dark
@@ -62,15 +38,7 @@ const AppContainer = () => {
         wrapper="footer"
         shadow={!dark}
       >
-        <div className="w-full flex flex-col items-center py-1 h-full">
-          <div className="flex flex-row m-auto">
-            {quickLinks.map((quickLink, index) => (
-              <Link key={String(index)} className="px-2" to={quickLink.url}>
-                {quickLink.img}
-              </Link>
-            ))}
-          </div>
-        </div>
+        <Footer dark={dark} setDarkMode={setDarkMode} />
       </Container>
     </Container>
   );

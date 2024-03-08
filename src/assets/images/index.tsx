@@ -5,11 +5,8 @@ import carouselPhoto3 from "./photos/carousel_3.jpg";
 import carouselPhoto4 from "./photos/carousel_4.jpg";
 
 import logo from "./logo_critellitour.png";
-import GithubLogo from "./quick_links/github-logo.svg";
-import TwitterLogo from "./quick_links/twitter-logo.svg";
 import FacebookLogo from "./quick_links/facebook-logo.svg";
 import LinkedinLogo from "./quick_links/linkedin-logo.svg";
-import BitLogo from "./quick_links/bit-logo.svg";
 import InstagramLogo from "./quick_links/instagram-logo.svg";
 import MailLogo from "./quick_links/mail-logo.svg";
 import TelegramLogo from "./quick_links/telegram-logo.svg";
@@ -27,13 +24,10 @@ import ES_FLAG from "./icons/langs/es.svg";
 import { Image } from "mobrix-ui";
 
 export const QUICK_LINKS_ICONS = {
-  github: <Image alt="" width={35} height={35} src={GithubLogo} />,
   instagram: <Image alt="" width={35} height={35} src={InstagramLogo} />,
   facebook: <Image alt="" width={35} height={35} src={FacebookLogo} />,
   mail: <Image alt="" width={35} height={35} src={MailLogo} />,
-  twitter: <Image alt="" width={35} height={35} src={TwitterLogo} />,
   linkedIn: <Image alt="" width={35} height={35} src={LinkedinLogo} />,
-  bit: <Image alt="" width={35} height={35} src={BitLogo} />,
   whatsapp: <Image alt="" width={35} height={35} src={WhatsappLogo} />,
   telegram: <Image alt="" width={35} height={35} src={TelegramLogo} />,
 };
