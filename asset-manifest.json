@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "https://critellitour.github.io/static/css/main.95be1afd.css",
+    "main.js": "https://critellitour.github.io/static/js/main.c8e3e470.js",
+    "static/js/119.e3836559.chunk.js": "https://critellitour.github.io/static/js/119.e3836559.chunk.js",
+    "static/js/574.95476d03.chunk.js": "https://critellitour.github.io/static/js/574.95476d03.chunk.js",
+    "static/css/980.7b7cf719.chunk.css": "https://critellitour.github.io/static/css/980.7b7cf719.chunk.css",
+    "static/js/980.258f9979.chunk.js": "https://critellitour.github.io/static/js/980.258f9979.chunk.js",
+    "static/media/logo_critellitour.png": "https://critellitour.github.io/static/media/logo_critellitour.26eb006656b05e9d8b8b.png",
+    "static/media/carousel_1.jpg": "https://critellitour.github.io/static/media/carousel_1.84dbbae0f36996670916.jpg",
+    "static/media/carousel_3.jpg": "https://critellitour.github.io/static/media/carousel_3.4b9ebc1e6abcda3a564a.jpg",
+    "static/media/carousel_2.jpg": "https://critellitour.github.io/static/media/carousel_2.41e653dc800db5a612d0.jpg",
+    "static/media/carousel_0.jpg": "https://critellitour.github.io/static/media/carousel_0.008564da51216ff31a6f.jpg",
+    "static/media/carousel_4.jpg": "https://critellitour.github.io/static/media/carousel_4.f8e23b7933d879892c3c.jpg",
+    "static/media/whatsapp-logo.svg": "https://critellitour.github.io/static/media/whatsapp-logo.49ca0afd4e59be3e9b76b774ebf8bae3.svg",
+    "static/media/github-logo.svg": "https://critellitour.github.io/static/media/github-logo.5772632ec1a96637df86ca3878fa72c0.svg",
+    "static/media/mail-logo.svg": "https://critellitour.github.io/static/media/mail-logo.7d617dd4003e4751cd964252acf30606.svg",
+    "static/media/dark-mode.svg": "https://critellitour.github.io/static/media/dark-mode.a64ce9a42aec862c162723ef488c3922.svg",
+    "static/media/en.svg": "https://critellitour.github.io/static/media/en.47367165e20d8ee8fd695ad9809c5bed.svg",
+    "static/media/instagram-logo.svg": "https://critellitour.github.io/static/media/instagram-logo.02967a62beee6b2a4d092b3c532b3358.svg",
+    "index.html": "https://critellitour.github.io/index.html",
+    "static/media/light-mode.svg": "https://critellitour.github.io/static/media/light-mode.69c05ba156fdcd0e12357c70b4a0164a.svg",
+    "static/media/bit-logo.svg": "https://critellitour.github.io/static/media/bit-logo.4763e1e85ad78aa5c0c5f2bcb2998845.svg",
+    "static/media/linkedin-logo.svg": "https://critellitour.github.io/static/media/linkedin-logo.02d3263a21b2563321723cf0d85fefea.svg",
+    "static/media/telegram-logo.svg": "https://critellitour.github.io/static/media/telegram-logo.2814139172aad1d9f432f6b946653c12.svg",
+    "static/media/de.svg": "https://critellitour.github.io/static/media/de.0c498278a03bc745b591ddb0eba4f00e.svg",
+    "static/media/twitter-logo.svg": "https://critellitour.github.io/static/media/twitter-logo.a61723909ec9e6014c9c701e68b7f016.svg",
+    "static/media/es.svg": "https://critellitour.github.io/static/media/es.cc5d62ae82786953f93d0e5a21888e19.svg",
+    "static/media/facebook-logo.svg": "https://critellitour.github.io/static/media/facebook-logo.447953c2943858178413aeec69d5b807.svg",
+    "static/media/fr.svg": "https://critellitour.github.io/static/media/fr.8a07eb7d76b133b1d7e7eb5f58090ee3.svg",
+    "static/media/it.svg": "https://critellitour.github.io/static/media/it.7ee7a27e030791474f5325883a3a0b5d.svg"
+  },
+  "entrypoints": [
+    "static/css/main.95be1afd.css",
+    "static/js/main.c8e3e470.js"
+  ]
+}

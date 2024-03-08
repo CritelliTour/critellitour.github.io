@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Critelli Tour</title>
+    <script>
+      let pathname = window.location.href.replace(
+        "https://critellitour.github.io",
+        ""
+      );
+      if (!pathname.startsWith("/")) {
+        pathname = "/" + pathname;
+      }
+      window.location.href =
+        "https://critellitour.github.io";
+    </script>
+  </head>
+  <body></body>
+</html>
